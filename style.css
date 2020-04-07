@@ -16,7 +16,7 @@ body{
 	border-radius: 100%;
 	margin: 20px auto;
 }
-.login{
+.login-info{
 	padding: 16px;
 }
 input[type=text], input[type=password] {
