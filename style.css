@@ -3,9 +3,10 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 }
 /*style for login*/
-.login-page{
+.login-page, .sign-up{
 	display: block;
 	border: 1px solid red;
+	margin: 10px 0;
 }
 .image{
 	background-image: url(https://www.w3schools.com/howto/img_avatar2.png);
@@ -20,7 +21,7 @@ body{
 .login-info{
 	padding: 16px;
 }
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -42,7 +43,7 @@ button:hover {
 .remember-me{
 	margin-left: 15px;
 }
-.cancel{
+.cancel ,.cancel-signup{
 	display: flex;
 	justify-content: space-between;
 	background-color: #EEE;
@@ -57,3 +58,25 @@ button:hover {
 	padding: 10px 20px;
 }
 /* style for sign up page */
+.login-info.form-sign-up{
+	border-top: 1px solid #555;
+}
+.signupbtn{
+	background-color: #1acb31;
+	padding: 14px 20px;
+}
+.cancel-signup::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
