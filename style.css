@@ -2,6 +2,7 @@ body{
 	margin: 0 30%;
 	font-family: Arial, Helvetica, sans-serif;
 }
+/*style for login*/
 .login-page{
 	display: block;
 	border: 1px solid red;
@@ -55,3 +56,4 @@ button:hover {
 	background-color: #f44336;
 	padding: 10px 20px;
 }
+/* style for sign up page */
